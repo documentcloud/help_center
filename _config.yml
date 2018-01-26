@@ -14,15 +14,20 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Your awesome title
-email: your-email@example.com
+email: ted@documentcloud.org
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+  Help files for DocumentCloud.  
+  DocumentCloud helps journalists work with and publish primary source documents
+  in the public interest.
+baseurl: "/help_center" # the subpath of your site, e.g. /blog
+asseturl: "https://assets.documentcloud.org"
+url: "https://documentcloud.github.com" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: documentcloud
+github_username:  documentcloud
+
+collections:
+  help:
+    output: true
 
 # Build settings
 markdown: kramdown
