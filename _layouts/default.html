@@ -1,0 +1,71 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="{{ site.asseturl }}/css/platform.css">
+    <title>{{ page.title | default:site.title }}</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-toggleable-sm navbar-light dc-navbar dc-navbar-primary">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a href="{{ site.baseurl }}/" class="nav-item nav-link dc-logo">DocumentCloud</a>
+      <div class="collapse navbar-collapse" id="main-nav">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a href="https://www.documentcloud.org" class="nav-link">Main Site</a>
+          </li>
+          <li class="nav-item">
+            <div class="dropdown">
+              <a href="#" class="nav-link dropdown-toggle" role="button" data-toggle="dropdown">Help Pages</a>
+              <div class="dropdown-menu">
+                {% for item in site.help %}
+                <a class="dropdown-item {% if item.id == page.id %}active{% endif %}" href="{{ item.url }}">{{ item.title }}</a>
+                {% endfor %}
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    
+    <main class="container">
+      <div class="row">
+        <div class="col-md-9 content paper">
+          {{ page.content | markdownify }}
+        </div>
+        <div class="col-md-3 sidebar beside-paper">
+          <h5>Help Pages</h5>
+          <nav class="nav nav-pills flex-column">
+            {% for item in site.help %}
+            <a class="nav-item nav-link {% if item.id == page.id %}active{% endif %}" href="{{ item.url }}">{{ item.title }}</a>
+            {% endfor %}
+          </nav>
+        </div>
+      </div>
+    </main>
+    
+    <footer id="page-footer" class="container">
+      <p>DocumentCloud Help Center</p>
+      <nav class="nav justify-content-center">
+        <a href="{{ site.baseurl }}" class="nav-link">Documentation</a>
+        <a href="{{ site.github_url }}" class="nav-link">GitHub</a>
+      </nav>
+    </footer>
+
+    <script src="{{ site.asseturl }}/js/shared-templates.js"></script>
+    <script src="{{ site.asseturl }}/js/platform.js"></script>
+    <script type="text/javascript">
+      $(function(){
+        $('.table-sortable').stupidtable();
+        $('.table-filterable').quickFilterTable();
+      });
+    </script>
+  </body>
+</html>
