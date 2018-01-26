@@ -26,7 +26,7 @@
               <a href="#" class="nav-link dropdown-toggle" role="button" data-toggle="dropdown">Help Pages</a>
               <div class="dropdown-menu">
                 {% for item in site.help %}
-                <a class="dropdown-item {% if item.id == page.id %}active{% endif %}" href="{{ item.url }}">{{ item.title }}</a>
+                <a class="dropdown-item {% if item.id == page.id %}active{% endif %}" href="{{ site.baseurl}}{{ item.url }}">{{ item.title }}</a>
                 {% endfor %}
               </div>
             </div>
@@ -44,7 +44,7 @@
           <h5>Help Pages</h5>
           <nav class="nav nav-pills flex-column">
             {% for item in site.help %}
-            <a class="nav-item nav-link {% if item.id == page.id %}active{% endif %}" href="{{ item.url }}">{{ item.title }}</a>
+            <a class="nav-item nav-link {% if item.id == page.id %}active{% endif %}" href="{{ site.baseurl}}{{ item.url }}">{{ item.title }}</a>
             {% endfor %}
           </nav>
         </div>
