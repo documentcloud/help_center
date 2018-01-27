@@ -21,9 +21,10 @@ description: >- # this means to ignore newlines until "baseurl:"
   in the public interest.
 baseurl: "/help_center" # the subpath of your site, e.g. /blog
 asseturl: "https://assets.documentcloud.org"
-url: "https://documentcloud.github.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://documentcloud.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: documentcloud
 github_username:  documentcloud
+github_url: https://github.com/documentcloud/help_center
 
 collections:
   help:
