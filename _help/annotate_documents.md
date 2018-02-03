@@ -5,17 +5,17 @@ title: Annotate Documents
 
 # Annotate Documents: Public, Private, and Draft Notes 
 
-* How to Annotate Documents
-    * Add a Note to a Specific Section of a Page
-    * Add a Note to an Entire Page
-* Linking to Notes
-* Printing Notes
-* Deleting Notes
-* Advanced
-* Markup and HTML in Notes
-
 ***
-
+#### In this article:
+  * [How to annotate documents](#how-to-annotate-documents)
+      - [Add a note to a specific section of a page](#add-a-note-to-a-specific-section-of-a-page)
+      - [Add a note to an entire page](#add-a-note-to-an-entire-page)
+  * [Linking to notes](#linking-to-notes)
+  * [Printing notes](#printing-notes)
+  * [Deleting notes](#deleting-notes)
+  * [Advanced](#advanced)
+      - [Markup and HTML in notes](#markup-and-html-in-notes)
+***
 
 DocumentCloud supports both private and public notes. **Public notes** are visible to anyone who has access to the document. **Private notes** are only ever visible to their author. 
 
