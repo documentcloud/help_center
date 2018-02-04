@@ -5,6 +5,15 @@ title: Collaboration and Sharing
 
 # Collaboration and Sharing
 
+***
+#### In this article:
+  * [Sharing documents with your newsroom](#sharing-documents-with-your-newsroom)
+      - [Changing a document's access level](#to-change-the-access-level-of-your-documents-)
+  * [Sharing documents with reviewers](#sharing-documents-with-reviewers)
+  * [Adding collaborators to a project](#adding-collaborators-to-a-project)
+  
+***
+
 In DocumentCloud, you can **share your documents with your newsroom**. You also can **share entire projects with other users**, whether or not they're in your newsroom, and **share specific documents with reviewers**, whether or not they have a DocumentCloud account.
 
 **In this article:**

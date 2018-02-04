@@ -4,6 +4,16 @@ title: Privacy
 ---
 
 # Privacy
+
+***
+
+#### In this article:
+* [Understanding privacy](#understanding-privacy)
+* [DocumentCloud’s privacy settings](#documentcloud-s-privacy-settings)
+* [Who Can Read Notes?](#who-can-read-notes-)
+
+***
+
 ## Understanding Privacy
 Documents you upload aren't public until you publish them.
 

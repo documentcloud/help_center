@@ -4,6 +4,21 @@ title: Managing Accounts
 ---
 
 # Managing Accounts
+
+***
+
+#### In this article:
+* [Personal information and language settings](#personal-information-and-language-settings)
+* [Types of accounts](#types-of-accounts)
+  - [Administrators](#administrators)
+  - [Contributors](#contributors)
+  - [Freelancers](#freelancers)
+* [Adding new accounts](#adding-new-accounts)
+* [Disabling accounts](#disabling-accounts)
+* [Switching organizations](#switching-organizations)
+  
+***
+
 DocumentCloud makes it easy to manage your account settings and, if you have an administrator-level account, manage other accounts and settings in your organization.
 
 **In this article:**

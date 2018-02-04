@@ -3,8 +3,18 @@ layout: default
 title: Uploading Documents
 ---
 
-
 # Uploading Documents
+
+***
+#### In this article:
+
+* [Upload via the workspace](#upload-via-the-workspace)
+* [Upload via the API](#upload-via-the-api)
+* [Compatible file formats](#compatible-file-formats)
+* [Compatible file size](#compatible-file-size)
+
+***
+
 As a DocumentCloud user, you'll want to build a collection of files to research, analyze, annotate and publish with our embeds. Fortunately, uploading files—whether you have a handful or several thousand—is easy.
 
 ## Upload via the Workspace
@@ -51,7 +61,7 @@ NOTE: Running into trouble uploading documents? Check out our troubleshooting pa
 
 ![Documentcloud languages](./images/uploading_documents/uploading_documents3.gif)
 
-## File Formats
+## Compatible File Formats
 Most DocumentCloud users work with **PDFs**, but our software can take any file type that LibreOffice supports.
 
 **This includes:**
@@ -62,5 +72,5 @@ Most DocumentCloud users work with **PDFs**, but our software can take any file 
 * Various image files including TIFF, PNG, GIF and JPEG.
 
 Upon upload, all non-PDF files are converted to PDF for use in DocumentCloud.
-## File Size
+## Compatible File Size
 **The maximum file size for an upload to DocumentCloud is 400 MB.** However, files that large are difficult to process, and you will likely get better results if you optimize large documents (anything over 10 MB) before you upload them. **You can find instructions on how to to optimize PDFs [here](troubleshooting.md#optimizing-pdfs).**

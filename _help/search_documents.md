@@ -4,6 +4,26 @@ title: Searching Documents
 ---
 
 # Searching for Documents
+
+***
+
+#### In this article:
+* [Advanced queries](#advanced-queries)
+  - [Searching for a specific, multi-word phrase](#to-search-for-a-specific--multi-word-phrase)
+  - [Grouping searches (search for two keywords at once)](#to-group-searches--search-for-two-keywords-at-once-)
+  - [Excluding a keyword from a search](#to-exclude-a-keyword-from-a-search)
+  - [“Wildcard” searches](#-wildcard--searches)
+* [Searching by built-in metadata field](#searching-by-built-in-metadata-field)
+  - [Metadata filters](#metadata-filters)
+* [Viewing entities](#viewing-entities)
+  - [What are entities?](#what-are-entities-)
+  - [Viewing all entities in a document](#to-view-all-the-entities-in-a-document)
+* [Editing and searching your own custom data](#editing-and-searching-your-own-custom-data)
+  - [Editing data for individual documents](#to-edit-data-for-individual-documents-)
+  - [Searching and filtering using custom data](#to-search-filter-using-custom-data-)
+      
+***
+
 By default, a search looks for **all of the words you enter within the title and full text of the document itself**. For example: `John Yoo detainee`. You can, however, ask DocumentCloud to search the contents of specific fields.
 ## Advanced Queries
 

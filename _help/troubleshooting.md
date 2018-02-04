@@ -4,8 +4,19 @@ title: Troubleshooting
 ---
 
 # Troubleshooting Failed Uploads
-We're always (with your help) discovering new and different ways to break our document importer. That is a good thing: it is one of the ways you're helping us make DocumentCloud better. 
 
+***
+
+#### In this article:
+* [Optimizing PDFs](#optimizing-pdfs)
+* [Troubleshooting noise in documents](#noise-in-documents)
+* [OCR failures (no text generated)](#no-text-at-all)
+* [Uploading encrypted or secured documents](#encrypted-or-secured-documents)
+* [More tools](#more-tools)
+  
+***
+
+We're always (with your help) discovering new and different ways to break our document importer. That is a good thing: it is one of the ways you're helping us make DocumentCloud better. 
 
 
 ## Optimizing PDFs

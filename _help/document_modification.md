@@ -4,6 +4,21 @@ title: Document Modification
 ---
 
 # Document Modification
+
+***
+
+#### In this article:
+  * [Redacting documents](#redacting-documents)
+  * [Page tools](#page-tools)
+      - [Inserting and replacing pages](#to-insert-replace-a-page-)
+      - [Removing pages](#to-remove-a-page-)
+      - [Reorganizing documents](#to-reorganize-a-document-)
+  * [Cleaning up OCR text](#cleaning-up-ocr-text)
+      - [Manually editing OCR text](#to-manually-edit-ocr-text-)
+      - [Reprocessing OCR text](#to-reprocess-ocr-text-)
+      
+***
+
 **We don't tend to think of modifying source documents as something a responsible journalist would do, but there are absolutely times when it is necessary.**
 
 Whether you're trying to protect the privacy of a minor by redacting personally identifying information from a foster care incident report, reorganizing a collection of letters, or inserting a page that wasn't properly scanned, journalists sometimes need to rework source documents to ready them for publication. 

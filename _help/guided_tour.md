@@ -5,6 +5,20 @@ title: Guided Tour
 
 # Guided Tour
 
+***
+
+#### In this article:
+1. [Log in](#1--log-in)
+2. [Create your first project](#2--create-your-first-project)
+3. [Try a search of public documents](#3--try-a-search-of-public-documents)
+4. [Upload a document](#4--upload-a-document)
+5. [Make some annotations](#5--make-some-annotations)
+6. [Redact text from your document](#6--redact-text-from-your-document)
+7. [Share your project with a colleague](#7--share-your-project-with-a-colleague)
+8. [Generate an embed code for your document](#8--generate-an-embed-code-for-your-document)
+
+***
+
 #### DocumentCloud is...
 * A tool for organizing and working with large documents and document collections
 * A collaboration tool, allowing journalists to share documents with professionals inside and outside their newsroom

@@ -4,6 +4,31 @@ title: Publishing and Embedding
 ---
 
 # Publishing and Embedding
+
+***
+
+#### In this article:
+
+* [Making Documents Public](#making-documents-public)
+  - [Changing a document's access level](#to-change-a-document-s-access-level-)
+  - [Setting a publication date](#to-set-a-publication-date-)
+* [Linking to a document, page, or note](#linking-to-a-document--page--or-note)
+- [Embedding documents](#embedding-documents)
+    * [Full document embed](#full-document-embed)
+    * [Single page embed](#single-page-embed)
+    * [Note embed](#note-embed)
+    * [Document list embed](#document-list-embed)
+* [How to embed documents](#how-to-embed-documents)
+    - [Preparing to embed a document](#preparing-to-embed-a-document)
+    - [Embed full document viewer](#embed-full-document-viewer)
+    - [Embed a single page from a document](#embed-a-single-page-from-a-document)
+    - [Embed a note from a document](#embed-a-note-from-a-document)
+    - [Embed a list of documents](#embed-a-list-of-documents)
+* [Wordpress shortcodes](#wordpress-shortcodes)
+* [oEmbed service](#oembed-service)
+
+***
+
 **Ready to share your documents with readers?** Either by embedding our custom viewer or using oEmbed, you can publish individual documents, embed a set of documents that readers can browse, or embed a single page or note from any document.
 
 ## Making Documents Public

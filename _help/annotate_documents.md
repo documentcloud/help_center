@@ -6,6 +6,7 @@ title: Annotate Documents
 # Annotate Documents: Public, Private, and Draft Notes 
 
 ***
+
 #### In this article:
   * [How to annotate documents](#how-to-annotate-documents)
       - [Add a note to a specific section of a page](#add-a-note-to-a-specific-section-of-a-page)
@@ -15,8 +16,9 @@ title: Annotate Documents
   * [Deleting notes](#deleting-notes)
   * [Advanced](#advanced)
       - [Markup and HTML in notes](#markup-and-html-in-notes)
+      
 ***
-fadfads
+
 DocumentCloud supports both private and public notes. **Public notes** are visible to anyone who has access to the document. **Private notes** are only ever visible to their author. 
 
 Public notes may also be saved as **drafts**. Draft notes are visible to anyone with the privileges necessary to annotate a document, including reviewers and collaborators, but they won't be published with the document.

@@ -348,7 +348,7 @@ The open-source community has contributed several helpful libraries for interact
 
 # Questions?
 
-Still have questions about the API? Don't hesitate to [contact us][].
+Still have questions about the API? Don't hesitate to [contact us][https://www.documentcloud.org/contact].
 
 [contact us]: javascript:dc.ui.Dialog.contact()
 
