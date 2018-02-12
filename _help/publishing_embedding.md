@@ -10,9 +10,9 @@ title: Publishing and Embedding
 #### In this article:
 
 * [Making Documents Public](#making-documents-public)
-  - [Changing a document's access level](#to-change-a-document-s-access-level-)
-  - [Setting a publication date](#to-set-a-publication-date-)
-* [Linking to a document, page, or note](#linking-to-a-document--page--or-note)
+  - [Changing a document's access level](#to-change-a-documents-access-level)
+  - [Setting a publication date](#to-set-a-publication-date)
+* [Linking to a document, page, or note](#linking-to-a-document-page-or-note)
 - [Embedding documents](#embedding-documents)
     * [Full document embed](#full-document-embed)
     * [Single page embed](#single-page-embed)
@@ -69,7 +69,7 @@ The most simple way to share your work in DocumentCloud with readers is to **pub
 
 `https://www.documentcloud.org/documents/282753-lefler-thesis.html#document/p57/a42283`
 
-Click [here](annotate_documents.md/#linking-to-notes) for more information on how to share a url linking to a specific note.
+Click [here](annotate_documents.html/#linking-to-notes) for more information on how to share a url linking to a specific note.
 
 # Embedding Documents
 

@@ -53,7 +53,7 @@ NOTE: If you're uploading a very large file, it might be a good idea to check th
 
 NOTE: Running into trouble uploading documents? Check out our troubleshooting page.
 ## Upload via the API
-**Users who want to upload many hundreds or thousands of documents or automate document uploads may want to consider using the [DocumentCloud API](api.md).** The `upload.json` method provides for passing in file name, project id and numerous other parameters with the file itself. It also allows for uploads directly from a URL.
+**Users who want to upload many hundreds or thousands of documents or automate document uploads may want to consider using the [DocumentCloud API](api.html).** The `upload.json` method provides for passing in file name, project id and numerous other parameters with the file itself. It also allows for uploads directly from a URL.
 
 **If your file has text embedded, DocumentCloud extracts and saves it.** If not (as with an image file or a PDF of a scanned document), DocumentCloud uses optical character recognition [(OCR)](https://en.wikipedia.org/wiki/Optical_character_recognition) software to attempt to identify the text. For this, our platform relies upon the open-source [Tesseract library](https://github.com/tesseract-ocr/tesseract).
 
@@ -73,4 +73,4 @@ Most DocumentCloud users work with **PDFs**, but our software can take any file 
 
 Upon upload, all non-PDF files are converted to PDF for use in DocumentCloud.
 ## Compatible File Size
-**The maximum file size for an upload to DocumentCloud is 400 MB.** However, files that large are difficult to process, and you will likely get better results if you optimize large documents (anything over 10 MB) before you upload them. **You can find instructions on how to to optimize PDFs [here](troubleshooting.md#optimizing-pdfs).**
+**The maximum file size for an upload to DocumentCloud is 400 MB.** However, files that large are difficult to process, and you will likely get better results if you optimize large documents (anything over 10 MB) before you upload them. **You can find instructions on how to to optimize PDFs [here](troubleshooting.html#optimizing-pdfs).**

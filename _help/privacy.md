@@ -9,8 +9,8 @@ title: Privacy
 
 #### In this article:
 * [Understanding privacy](#understanding-privacy)
-* [DocumentCloud’s privacy settings](#documentcloud-s-privacy-settings)
-* [Who Can Read Notes?](#who-can-read-notes-)
+* [DocumentCloud’s privacy settings](#documentclouds-privacy-settings)
+* [Who Can Read Notes?](#who-can-read-notes)
 
 ***
 

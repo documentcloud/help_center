@@ -9,18 +9,18 @@ title: Searching Documents
 
 #### In this article:
 * [Advanced queries](#advanced-queries)
-  - [Searching for a specific, multi-word phrase](#to-search-for-a-specific--multi-word-phrase)
-  - [Grouping searches (search for two keywords at once)](#to-group-searches--search-for-two-keywords-at-once-)
+  - [Searching for a specific, multi-word phrase](#to-search-for-a-specific-multi-word-phrase)
+  - [Grouping searches (search for two keywords at once)](#to-group-searches-search-for-two-keywords-at-once)
   - [Excluding a keyword from a search](#to-exclude-a-keyword-from-a-search)
-  - [“Wildcard” searches](#-wildcard--searches)
+  - [“Wildcard” searches](#wildcard-searches)
 * [Searching by built-in metadata field](#searching-by-built-in-metadata-field)
   - [Metadata filters](#metadata-filters)
 * [Viewing entities](#viewing-entities)
-  - [What are entities?](#what-are-entities-)
+  - [What are entities?](#what-are-entities)
   - [Viewing all entities in a document](#to-view-all-the-entities-in-a-document)
 * [Editing and searching your own custom data](#editing-and-searching-your-own-custom-data)
-  - [Editing data for individual documents](#to-edit-data-for-individual-documents-)
-  - [Searching and filtering using custom data](#to-search-filter-using-custom-data-)
+  - [Editing data for individual documents](#to-edit-data-for-individual-documents)
+  - [Searching and filtering using custom data](#to-search-filter-using-custom-data)
       
 ***
 
@@ -89,7 +89,7 @@ filter|Filter documents by interesting criteria (one of "published," "unpublishe
 
 **DocumentCloud allows you to define and search your own set of custom data (key/value pairs) associated with specific documents.**
 
-To get started with document data, you can use the [API](api.md) to add data to your documents in bulk — useful if you already have an existing database of information about your documents.
+To get started with document data, you can use the [API](api.html) to add data to your documents in bulk — useful if you already have an existing database of information about your documents.
 
 #### To edit data for individual documents:
 

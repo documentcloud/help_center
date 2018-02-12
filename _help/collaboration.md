@@ -8,18 +8,13 @@ title: Collaboration and Sharing
 ***
 #### In this article:
   * [Sharing documents with your newsroom](#sharing-documents-with-your-newsroom)
-      - [Changing a document's access level](#to-change-the-access-level-of-your-documents-)
+      - [Changing a document's access level](#to-change-the-access-level-of-your-documents)
   * [Sharing documents with reviewers](#sharing-documents-with-reviewers)
   * [Adding collaborators to a project](#adding-collaborators-to-a-project)
   
 ***
 
 In DocumentCloud, you can **share your documents with your newsroom**. You also can **share entire projects with other users**, whether or not they're in your newsroom, and **share specific documents with reviewers**, whether or not they have a DocumentCloud account.
-
-**In this article:**
-* Change the access level of a document
-* Share documents with reviewers without DocumentCloud accounts
-* Add collaborators on DocumentCloud to a project
 
 ## Sharing Documents with Your Newsroom
 When you upload a document, you can decide whether or not you're ready to make it public. By default, no one but you will be able to see documents you've uploaded to DocumentCloud. 
@@ -32,7 +27,7 @@ When you upload a document, you can decide whether or not you're ready to make i
 ![Set access level](./images/collaboration/collaboration1.gif)
 
 * **Public Access** - Anyone, even those without DocumentCloud accounts, may access the document.
-* **Private Access** - The default. Only you can access the document.
+* **Private Access** - The default document access setting. Only you may access the document.
 * **Private to DocumentCloud** - Only people in your organization may access the document. 
 
  

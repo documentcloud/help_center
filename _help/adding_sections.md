@@ -4,7 +4,7 @@ title: Adding Sections for Navigation
 ---
 
 # Adding Navigation Sections
-To help differentiate portions of a long document, you can add **navigation links** to the sidebar by **defining sections.**
+To divide up a long document, you can add **navigation links** to the workspace sidebar by **defining sections.**
 
 #### To Add Sections to a Document:
 
@@ -17,6 +17,6 @@ To help differentiate portions of a long document, you can add **navigation link
 4. Use the **plus and minus icons** to add and remove rows.
     ![Adding and Removing Sections](./images/adding_sections/adding_sections1.gif)
 5. Select **"Save"**.
-6. Your sections will appear in the **left-hand sidebar**, as below. Simply click on the name of the section you want to navigate to.
+6. Your sections will appear in the **left-hand sidebar**, as below. Simply click on the name of a section to navigate to that page in your document.
 
     ![Sections Final](./images/adding_sections/sections.png)

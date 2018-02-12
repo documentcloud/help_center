@@ -21,14 +21,6 @@ title: Managing Accounts
 
 DocumentCloud makes it easy to manage your account settings and, if you have an administrator-level account, manage other accounts and settings in your organization.
 
-**In this article:**
-* Change language settings
-* Change your name and email
-* Learn about different account types
-* Add a new user account to your organization
-* Disable a user account
-
-
 ## Personal Information and Language Settings
 Manage your DocumentCloud account and settings by clicking the **"Accounts"** tab at the top of the workspace:
 
@@ -52,7 +44,7 @@ Contributors can upload, annotate and edit documents, and they can access docume
 * #### Freelancers
 Freelancers can upload, annotate, and edit their own documents and any documents that have been explicitly shared with them. Freelancers do not have access to the rest of your organization's documents.
 
-You may also wish to learn more about [reviewers and other collaboration tools](collaboration.md) or read up on [DocumentCloud privacy](privacy.md).
+You may also wish to learn more about [reviewers and other collaboration tools](collaboration.html) or read up on [DocumentCloud privacy](privacy.html).
 
 ## Adding New Accounts
 If you are an administrator of your organization's DocumentCloud account, you can easily add others from your organization to DocumentCloud.
