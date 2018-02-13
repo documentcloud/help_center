@@ -91,12 +91,12 @@ Hover over the **"Demo Documents"** project you created earlier and select the *
 
 Once you've clicked save, the project and all the documents contained within will appear in the account sidebar of your collaborator.
 
-NOTE: **Collaborators must have a DocumentCloud account.** If you try and add someone as a collaborator with an email address that is not associated with an already-existing DocumentCloud account, you will receive an error. [Click here](collaboration.md#sharing-documents-with-reviewers) for more information on how to share private documents with reviewers who do not have DocumentCloud accounts.
+NOTE: **Collaborators must have a DocumentCloud account.** If you try and add someone as a collaborator with an email address that is not associated with an already-existing DocumentCloud account, you will receive an error. [Click here](collaboration.html#sharing-documents-with-reviewers) for more information on how to share private documents with reviewers who do not have DocumentCloud accounts.
 
 ### 8) Generate an embed code for your document.
 DocumentCloud makes it easy for you to share primary source documents with readers online to supplement and provide context for your published work.
 
-Select one of the documents you've just uploaded. Then, select **"Publish"** from the top menu bar, and click **"Embed Document Viewer"**. If the document is not yet set to public, you'll have to [make it public](publishing_embedding.md#to-change-a-documents-access-level) in order to embed it.
+Select one of the documents you've just uploaded. Then, select **"Publish"** from the top menu bar, and click **"Embed Document Viewer"**. If the document is not yet set to public, you'll have to [make it public](publishing_embedding.html#to-change-a-documents-access-level) in order to embed it.
 
 ![Generating Embeds](./images/guide/guide7.gif)
 
