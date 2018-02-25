@@ -3,11 +3,41 @@ layout: default
 title: Guided Tour
 ---
 
-# Guided Tour
+# Welcome to DocumentCloud!
+
+
+
+
+### DocumentCloud is...
+* A tool for organizing and working with large documents and document collections
+* A collaboration tool, allowing journalists to share documents with professionals inside and outside their newsroom
+* A document viewer that makes it easier for reporters to share source material with readers
+* A publicly accessible repository of primary source documents 
 
 ***
 
-#### In this article:
+## The Document Workspace
+![Creating Projects](./images/guide/workspace.gif) 
+
+***
+####![Creating Projects](./images/guide/color1.png) Workspace Top bar
+You may use the top bar to switch between the **three primary document views**: 
+* **Document** (to browse through the original PDF page-by-page)
+* **Pages** (to open the PDF in multi-page view)
+* **Text** (to browse through the results of the conversion of the PDF into machine-encoded text)
+
+####![Creating Projects](./images/guide/color3.png) Workspace Sidebar
+All document and page editing tools, as well as all sorting and annotation tools, are located in the workspace sidebar.
+####![Creating Projects](./images/guide/color2.png) Document Body
+Exactly what it says on the tin. Scroll through your document in any and all views, read, annotate, redact, e.t.c.
+
+
+# DocumentCloud Walkthrough
+
+**If you're new to DocumentCloud, here's a walkthrough to help you get your bearings.**
+
+***
+
 1. [Log in](#1-log-in)
 2. [Create your first project](#2-create-your-first-project)
 3. [Try a search of public documents](#3-try-a-search-of-public-documents)
@@ -19,15 +49,6 @@ title: Guided Tour
 
 ***
 
-#### DocumentCloud is...
-* A tool for organizing and working with large documents and document collections
-* A collaboration tool, allowing journalists to share documents with professionals inside and outside their newsroom
-* A document viewer that makes it easier for reporters to share source material with readers
-* A publicly accessible repository of primary source documents 
-
-**If you're new to DocumentCloud, here's a walkthrough to help you get your bearings.**
-
-***
 
 ### 1) Log in.
 
