@@ -20,17 +20,24 @@ title: Guided Tour
 ![Creating Projects](./images/guide/workspace.gif) 
 
 ***
-####![Creating Projects](./images/guide/color1.png) Workspace Top bar
+![Creating Projects](./images/guide/color1.png) **WORKSPACE TOP BAR**
+
 You may use the top bar to switch between the **three primary document views**: 
 * **Document** (to browse through the original PDF page-by-page)
 * **Pages** (to open the PDF in multi-page view)
 * **Text** (to browse through the results of the conversion of the PDF into machine-encoded text)
 
-####![Creating Projects](./images/guide/color3.png) Workspace Sidebar
+![Creating Projects](./images/guide/color3.png) ***WORKSPACE SIDEBAR***
 All document and page editing tools, as well as all sorting and annotation tools, are located in the workspace sidebar.
 ####![Creating Projects](./images/guide/color2.png) Document Body
 Exactly what it says on the tin. Scroll through your document in any and all views, read, annotate, redact, e.t.c.
 
+<div style="color: red; background:pink">
+Testing display of styled objects.
+</div>
+<div style="color: red; background:pink">
+Testing display of styled objects.
+</div>
 
 # DocumentCloud Walkthrough
 
