@@ -5,9 +5,6 @@ title: Guided Tour
 
 # Welcome to DocumentCloud!
 
-
-
-
 ### DocumentCloud is...
 * A tool for organizing and working with large documents and document collections
 * A collaboration tool, allowing journalists to share documents with professionals inside and outside their newsroom
@@ -21,18 +18,18 @@ title: Guided Tour
 
 ***
 
-<p style="background:#c2e5db;padding:0.7em;border-radius:3px;">**Top Bar**</p>
+<p style="background:#c2e5db;padding:0.7em;border-radius:3px;font-weight:bold;">Top Bar</p>
 
 You may use the top bar to switch between the **three primary document views**: 
 * **Document** (to browse through the original PDF page-by-page)
 * **Pages** (to open the PDF in multi-page view)
 * **Text** (to browse through the results of the conversion of the PDF into machine-encoded text)
 
-<p style="background:#99ccd0;padding:0.7em;border-radius:3px;">**Workspace Sidebar**</p>
+<p style="background:#99ccd0;padding:0.7em;border-radius:3px;font-weight:bold;">Workspace Sidebar</p>
 
 All document and page editing tools, as well as all sorting and annotation tools, are located in the workspace sidebar.
 
-<p style="background:#eecdbc;padding:0.7em;border-radius:3px;">**Document Body**</p>
+<p style="background:#eecdbc;padding:0.7em;border-radius:3px;font-weight:bold;">Document Body</p>
 
 
 Exactly what it says on the tin. Scroll through your document in any and all views, read, annotate, redact, e.t.c.
