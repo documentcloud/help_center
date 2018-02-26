@@ -35,7 +35,7 @@ Not everything is appropriate for publication. [Reports from a state foster care
 3. Select **“Save Redactions”** and then **“Okay”**. 
 4. You will be forwarded back to the **“Your Documents”** page. Once your document is finished processing, the text you selected has been blacked out.
 
-NOTE: **Redactions are permanent, and cannot be undone.** When you redact a portion of a document, all of the text touching the black box will additionally be removed from the OCR text in the **"text"** tab. No trace of it will be left in the document file.
+<p style="background:#c2e5db;padding:0.9em;border-radius:4px;"><b>NOTE: Redactions are permanent, and cannot be undone.</b> When you redact a portion of a document, all of the text touching the black box will additionally be removed from the OCR text in the <b>"text"</b> tab. No trace of it will be left in the document file.</p>
 
 ## Page Tools
 
@@ -89,9 +89,9 @@ Need to clean up OCR gibberish? Edit the text that appears in DocumentCloud's te
 ![OCR edit 2](./images/document_modification/document_modification3.png)
 
 
-NOTE: To undo edits you’ve made to a page, hover over the page preview in the top activity tray and click the **(x)** icon in the bottom left corner.
+<p style="background:#c2e5db;padding:0.9em;border-radius:4px;"><b>NOTE:</b> To undo edits you’ve made to a page, hover over the page preview in the top activity tray and click the <b>(x)</b> icon in the bottom left corner.</p>
 
-NOTE: Changes made with Edit Page Text will NOT alter the original PDF. If you want to remove a portion of text from both the text tab and the PDF, you should use the redaction tool.
+<p style="background:#c2e5db;padding:0.9em;border-radius:4px;"><b>NOTE:</b> Changes made with Edit Page Text will NOT alter the original PDF. If you want to remove a portion of text from both the text tab and the PDF, you should use the redaction tool.</p>
 
 #### To Reprocess OCR Text:
 
@@ -101,6 +101,6 @@ As we work, DocumentCloud is continually improving the tools we provide to users
     ![OCR reprocess](./images/document_modification/reprocess.png)
 2. Click **“Reprocess”**.
 
-NOTE: By default, DocumentCloud tries to use the text content embedded in the PDF file, if available. If you know that this text is incorrect, and you would prefer to have DocumentCloud use Tesseract to extract the text via optical character recognition, choose the **"Force OCR"** option.
+<p style="background:#c2e5db;padding:0.9em;border-radius:4px;"><b>NOTE:</b> By default, DocumentCloud tries to use the text content embedded in the PDF file, if available. If you know that this text is incorrect, and you would prefer to have DocumentCloud use Tesseract to extract the text via optical character recognition, choose the <b>"Force OCR"</b> option.</p>
 
 

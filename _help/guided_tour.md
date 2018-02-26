@@ -115,7 +115,7 @@ Hover over the **"Demo Documents"** project you created earlier and select the *
 
 Once you've clicked save, the project and all the documents contained within will appear in the account sidebar of your collaborator.
 
-<p style="background:#c2e5db;padding:0.9em;border-radius:6px;"><b>NOTE: Collaborators must have a DocumentCloud account.</b> If you try and add someone as a collaborator with an email address that is not associated with an already-existing DocumentCloud account, you will receive an error. <a href="https://documentcloud.github.io/help_center/help/collaboration.html#sharing-documents-with-reviewers">Click here</a> for more information on how to share private documents with reviewers who do not have DocumentCloud accounts.</p>
+<p style="background:#c2e5db;padding:0.9em;border-radius:4px;"><b>NOTE: Collaborators must have a DocumentCloud account.</b> If you try and add someone as a collaborator with an email address that is not associated with an already-existing DocumentCloud account, you will receive an error. <a href="https://documentcloud.github.io/help_center/help/collaboration.html#sharing-documents-with-reviewers">Click here</a> for more information on how to share private documents with reviewers who do not have DocumentCloud accounts.</p>
 
 ### 8) Generate an embed code for your document.
 DocumentCloud makes it easy for you to share primary source documents with readers online to supplement and provide context for your published work.
