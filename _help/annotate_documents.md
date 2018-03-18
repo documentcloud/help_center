@@ -3,6 +3,37 @@ layout: default
 title: Annotate Documents
 ---
 
+<style>
+ol {
+    background:#e6e8ef;
+    padding:20px 40px;
+    border-radius:5px;
+}
+
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+ol li {
+  counter-increment: step-counter;
+  margin-bottom: 10px;
+}
+
+ol li::before {
+  content: counter(step-counter);
+  margin-right: 5px;
+  font-size: 80%;
+  background-color: rgb(0,200,200);
+  color: white;
+  font-weight: bold;
+  padding: 3px 8px;
+  border-radius: 3px;
+}
+
+</style>
+
 # Annotate Documents: Public, Private, and Draft Notes 
 
 ***
