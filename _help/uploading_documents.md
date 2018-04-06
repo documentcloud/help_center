@@ -28,7 +28,7 @@ There are two ways to upload in the workspace:
 
 To select more than one document, hold down the ctrl key in Windows or the command key in OSX.
 
-<p style="background:#c2e5db;padding:0.9em;border-radius:4px;"><b>NOTE:</b> Multiple document upload is not supported in older versions of Internet Explorer.</p>
+<div class="note"><b>NOTE:</b> Multiple document upload is not supported in older versions of Internet Explorer.</div>
 
 
 1. **The uploader will suggest a title for your document based on its file name.** You can edit the title before you continue, or you can edit the title plus other metadata after the document is uploaded. 
@@ -49,9 +49,9 @@ To select more than one document, hold down the ctrl key in Windows or the comma
 
 To view all the documents you've uploaded, click on the **"Your Documents"** link at the top left.
 
-<p style="background:#c2e5db;padding:0.9em;border-radius:4px;"><b>NOTE:</b> If you're uploading a very large file, it might be a good idea to check the "email me when the uploaded document has finished processing" box. <b>If you plan to upload many large documents at once, let us know so we can ensure there's enough computing resources available.</b></p>
+<b>NOTE:</b> If you're uploading a very large file, it might be a good idea to check the "email me when the uploaded document has finished processing" box. <b>If you plan to upload many large documents at once, let us know so we can ensure there's enough computing resources available.</b>
 
-<p style="background:#c2e5db;padding:0.9em;border-radius:4px;"><b>NOTE:</b> Running into trouble uploading documents? Check out our <a href="troubleshooting.html">troubleshooting page</a>.</p>
+<b>NOTE:</b> Running into trouble uploading documents? Check out our <a href="troubleshooting.html">troubleshooting page</a>.
 ## Upload via the API
 **Users who want to upload many hundreds or thousands of documents or automate document uploads may want to consider using the [DocumentCloud API](api.html).** The `upload.json` method provides for passing in file name, project id and numerous other parameters with the file itself. It also allows for uploads directly from a URL.
 

@@ -51,7 +51,7 @@ Before you publish a document, page, note or document set, you'll want to make s
 4. Select the date you'd like the document to be made public in the dialog box and click **"Save"**. 
 5. Your document will now automatically have its display setting changed to "public" at that date and time.
 
-<p style="background:#c2e5db;padding:0.9em;border-radius:4px;"><b>NOTE:</b> DocumentCloud syncs to the local time on your computer. For example, if your computer is set in Eastern Standard Time, whatever publication date and time you select will also by default be in Eastern Standard Time.</p>
+<b>NOTE:</b> DocumentCloud syncs to the local time on your computer. For example, if your computer is set in Eastern Standard Time, whatever publication date and time you select will also by default be in Eastern Standard Time.
 
 ## Linking to a Document, Page, or Note
 
@@ -227,7 +227,7 @@ You also can pass additional parameters to control the size and attributes of th
 * **For a note, use any note-specific URL:**
     * `~/documents/282753-lefler-thesis.html#document/p1/a53674"]`
 
-<p style="background:#c2e5db;padding:0.9em;border-radius:4px;"><b>NOTE:</b> If you don't indicate a width (or manually disable responsive widths with `responsive="false"`), then the document will automatically narrow and widen to fill available width.</p>
+<b>NOTE:</b> If you don't indicate a width (or manually disable responsive widths with `responsive="false"`), then the document will automatically narrow and widen to fill available width.
 
 ## oEmbed Service
 
@@ -243,5 +243,5 @@ You also can pass additional parameters to control the size and attributes of th
     * `https://www.documentcloud.org/documents/1234-document-name/annotations/220666.html`
 
 
-<p style="background:#c2e5db;padding:0.9em;border-radius:4px;"><b>NOTE:</b> Check with your organization's systems administrator about whether your CMS supports oEmbed.</p>
+<b>NOTE:</b> Check with your organization's systems administrator about whether your CMS supports oEmbed.
 

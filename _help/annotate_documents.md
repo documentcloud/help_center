@@ -91,7 +91,7 @@ When sharing a document with others, you can **link directly to specific notes y
  * The good stuff comes after the # symbol — in our example the URL of the embedded document ends with #document/p173/a8646, so we know that the annotation is on page 173.
 4. **Copy the url** and share. 
 
-<p style="background:#c2e5db;padding:0.9em;border-radius:4px;"><b>NOTE:</b> You also can embed a note directly. See our <a href="https://documentcloud.github.io/help_center/help/publishing_embedding.html">publishing and embedding documentation</a> for details.</p>
+<b>NOTE:</b> You also can embed a note directly. See our <a href="https://documentcloud.github.io/help_center/help/publishing_embedding.html">publishing and embedding documentation</a> for details.
 
 ## Printing Notes
 It's easy to print out all of the notes you've created on a particular document or set of documents. 
@@ -115,7 +115,7 @@ It's easy to print out all of the notes you've created on a particular document 
 
     ![Deleting notes](./images/annotate_documents/annotate_documents5.gif)
 
-<p style="background:#c2e5db;padding:0.9em;border-radius:4px;"><b>NOTE:</b> Deleting a note <b>cannot be undone</b>, so proceed with caution.</p>
+<b>NOTE:</b> Deleting a note <b>cannot be undone</b>, so proceed with caution.
 
 ## Advanced
 

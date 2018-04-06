@@ -58,5 +58,5 @@ When you upload a document, you can decide whether or not you're ready to make i
 4. Input the email address of the person you're adding as a collaborator. Click **"Add"**.
 5. The project will appear in the **account sidebar** of your collaborator; they may access it from there.
 
-<p style="background:#c2e5db;padding:0.9em;border-radius:4px;"><b>NOTE:</b> Collaborators must have a DocumentCloud account. If you try and add someone as a collaborator with an email address that is not associated with an already-existing DocumentCloud account, you will receive an error.
+<b>NOTE:</b> Collaborators must have a DocumentCloud account. If you try and add someone as a collaborator with an email address that is not associated with an already-existing DocumentCloud account, you will receive an error.
 
