@@ -5,9 +5,123 @@
   Add custom styles here that will override the default theme.
 */
 
-.note {
-    background:pink;
-    padding:16px;
-    border-radius:3px;
+* {
+  box-sizing: border-box;
 }
+
+.paper.content {
+    padding:3rem 4rem;
+}
+
+.note {
+    background:#d2e2d0;
+    padding:18px;
+    border-radius:5px;
+    color:black;
+    font-size:1em;
+}
+
+.red {
+    background:#eecdbc;
+    padding:0.7em;
+    border-radius:3px;
+    font-weight:bold;
+    font-size:1.2em;
+}
+
+.green {
+    background:#c2e5db;
+    padding:0.7em;
+    border-radius:3px;
+    font-weight:bold;
+    font-size:1.2em;
+}
+
+.blue {
+    background:#99ccd0;
+    padding:0.7em;
+    border-radius:3px;
+    font-weight:bold;
+    font-size:1.2em;
+}
+
+h1 {
+    border-bottom:none;
+   font-weight:500;
+}
+
+h2 {
+    border-bottom:3px #a0acbf solid;
+    background:#f7f7f7;
+    padding:20px;
+    margin-top:20px;
+    border-radius:6px;
+}
+
+h4 {
+    padding-bottom:10px;
+    margin-top:30px;
+    border-bottom:1px #a0acbf dotted;
+}
+
+.container ol li ul, .container ul li ul, nav ul {
+    border:none;
+}
+
+
+img {
+    border:2px lightgrey solid;
+    border-radius:5px;
+    margin-top:15px;
+    margin-bottom:10px;
+    -webkit-box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.1);
+    max-width:100%;
+}
+
+
+ol {
+
+  padding-left: 50px;
+  margin: 10px auto;
+  counter-reset: section;
+  list-style:none;
+}
+ol > li {
+  padding-bottom: 6px;
+  position: relative;
+}
+ol li:before {
+  content: counters(section,")");
+  counter-increment: section;
+  position: absolute;
+  font-size: 17px;
+  font-weight: 600;
+  left: -20px;
+  color: black;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 25px;
+  z-index: 50;
+}
+
+ol li:last-child:after {
+  border: none;
+}
+
+
+table, th, td {
+    border: 1px dotted grey;
+    text-align:left;
+    padding:8px;
+}
+
+table {
+    margin:20px 0px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+
 

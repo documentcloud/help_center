@@ -18,24 +18,24 @@ title: Guided Tour
 
 ***
 
-<p style="background:#c2e5db;padding:0.7em;border-radius:3px;font-weight:bold;">Top Bar
+<p class="green">Top Bar</p>
 
 You may use the top bar to switch between the **three primary document views**: 
 * **Document** (to browse through the original PDF page-by-page)
 * **Pages** (to open the PDF in multi-page view)
 * **Text** (to browse through the results of the conversion of the PDF into machine-encoded text)
 
-<p style="background:#99ccd0;padding:0.7em;border-radius:3px;font-weight:bold;">Workspace Sidebar
+<p class="blue">Workspace Sidebar</p>
 
 All document and page editing tools, as well as all sorting and annotation tools, are located in the workspace sidebar.
 
-<p style="background:#eecdbc;padding:0.7em;border-radius:3px;font-weight:bold;">Document Body
+<p class="red">Document Body</p>
 
 
 Exactly what it says on the tin. Scroll through your document in any and all views, read, annotate, redact, e.t.c.
 
 
-# DocumentCloud Walkthrough
+## DocumentCloud Walkthrough
 
 **If you're new to DocumentCloud, here's a walkthrough to help you get your bearings.**
 
@@ -115,7 +115,7 @@ Hover over the **"Demo Documents"** project you created earlier and select the *
 
 Once you've clicked save, the project and all the documents contained within will appear in the account sidebar of your collaborator.
 
-<b>NOTE: Collaborators must have a DocumentCloud account.</b> If you try and add someone as a collaborator with an email address that is not associated with an already-existing DocumentCloud account, you will receive an error. <a href="https://documentcloud.github.io/help_center/help/collaboration.html#sharing-documents-with-reviewers">Click here</a> for more information on how to share private documents with reviewers who do not have DocumentCloud accounts.
+<p class="note"><b>NOTE: Collaborators must have a DocumentCloud account.</b> If you try and add someone as a collaborator with an email address that is not associated with an already-existing DocumentCloud account, you will receive an error. <a href="collaboration.html#sharing-documents-with-reviewers">Click here</a> for more information on how to share private documents with reviewers who do not have DocumentCloud accounts.</p>
 
 ### 8) Generate an embed code for your document.
 DocumentCloud makes it easy for you to share primary source documents with readers online to supplement and provide context for your published work.
@@ -127,7 +127,6 @@ Select one of the documents you've just uploaded. Then, select **"Publish"** fro
 Click through the dialogue. You'll be given a bunch of **different options to customize your document viewer**, including the height you'd like to set it to and whether or not you want the sidebar to show up. You can **preview the document viewer** as well to see how it will look when published.
 
 ![Embed Code](./images/publishing_embedding/publishing_embedding7.gif)
-
 
 Once you're done, simply **copy and paste** the embed code into the body of your article. If you use Wordpress, you can download our [Wordpress plugin](https://wordpress.org/plugins/documentcloud/). This will let you embed DocumentCloud documents into content with Wordpress shortcode instead.
 

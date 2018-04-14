@@ -5,14 +5,9 @@ title: Managing Accounts
 
 # Managing Accounts
 
-***
-
 #### In this article:
 * [Personal information and language settings](#personal-information-and-language-settings)
 * [Types of accounts](#types-of-accounts)
-  - [Administrators](#administrators)
-  - [Contributors](#contributors)
-  - [Freelancers](#freelancers)
 * [Adding new accounts](#adding-new-accounts)
 * [Disabling accounts](#disabling-accounts)
 * [Switching organizations](#switching-organizations)
@@ -37,11 +32,11 @@ Click **"Save"** to store any changes.
 ## Types of Accounts
 
 DocumentCloud supports three categories of users in any organization: **administrators**, **contributors**, and **freelancers**.
-* ####  Administrators
+<p class="blue">Administrators</p>
 Administrators can create new DocumentCloud accounts and disable old ones. Assign administrative privileges to as many users as appropriate.
-* #### Contributors
+<p class="red">Contributors</p>
 Contributors can upload, annotate and edit documents, and they can access documents shared across the organization.
-* #### Freelancers
+<p class="green">Freelancers</p>
 Freelancers can upload, annotate, and edit their own documents and any documents that have been explicitly shared with them. Freelancers do not have access to the rest of your organization's documents.
 
 You may also wish to learn more about [reviewers and other collaboration tools](collaboration.html) or read up on [DocumentCloud privacy](privacy.html).
@@ -50,7 +45,6 @@ You may also wish to learn more about [reviewers and other collaboration tools](
 If you are an administrator of your organization's DocumentCloud account, you can easily add others from your organization to DocumentCloud.
 
 #### To Add an Account:
-
 
 1. Select the **“Accounts”** tab. You should see your personal account information and workspace options.
 2. Click on the name of your organization in the left-hand sidebar.
@@ -79,5 +73,7 @@ NOTE: When an account is disabled, all the documents that person uploaded to Doc
 
 ## Switching organizations
 
-If you are switching the organization you work for but would like to retain access to the DocumentCloud account you've been using, please contact us at **support@documentcloud.org**.
+**Currently, there is no automated way to take the documents you've uploaded to one organization-linked account and move them to another organization-linked account.** If you would like to move your documents to a new account, we recommend that you re-upload them to your new account.
+
+If you have any questions or concerns about what happens to your documents when switching organizations, please contact us at **support@documentcloud.org**.
 

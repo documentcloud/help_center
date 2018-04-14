@@ -5,8 +5,6 @@ title: Privacy
 
 # Privacy
 
-***
-
 #### In this article:
 * [Understanding privacy](#understanding-privacy)
 * [DocumentCloud’s privacy settings](#documentclouds-privacy-settings)
@@ -32,9 +30,9 @@ When you upload a document, you can decide whether or not you're ready to make i
 Use the **"Private to my newsroom"** option to give your colleagues access without making the document public. You can also share individual projects with other DocumentCloud users, whether or not they're in your newsroom, using our [collaboration tools](collaboration.html).
 ## Who Can Read Notes?
 
-Your "private" notes will always be private. 
+**Your "private" notes will always be private.**
 
-Public notes, on the other hand, are as public as the document. 
+**Public notes, on the other hand, are as public as the document.**
 
 If access to the document is limited to your newsroom, your "public" notes will be able to be read and edited by anyone in your newsroom. When you make a document public, your public notes become visible to other DocumentCloud users along with it.
  

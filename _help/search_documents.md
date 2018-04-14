@@ -5,8 +5,6 @@ title: Searching Documents
 
 # Searching for Documents
 
-***
-
 #### In this article:
 * [Advanced queries](#advanced-queries)
   - [Searching for a specific, multi-word phrase](#to-search-for-a-specific-multi-word-phrase)
@@ -73,7 +71,7 @@ filter|Filter documents by interesting criteria (one of "published," "unpublishe
 #### What Are Entities?
 **Entities** are the people, places, organizations, terms, e.t.c. present in your documents. Whenever you upload a document to DocumentCloud we send its contents to [**OpenCalais**](http://www.opencalais.com), a service that discovers the entities present in plain text. 
 
-**OpenCalais** can tell us that "Barack Obama" is the same person as "President Obama," "Senator Obama," "Mr. President" ... and even "he" or "his" in clauses such as "his policy proposals."
+OpenCalais can tell us that "Barack Obama" is the same person as "President Obama," "Senator Obama," "Mr. President" ... and even "he" or "his" in clauses such as "his policy proposals."
 
 #### To View All the Entities in a Document
 1. **Right-click** on the document thumbnail.

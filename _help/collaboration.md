@@ -5,7 +5,6 @@ title: Collaboration and Sharing
 
 # Collaboration and Sharing
 
-***
 #### In this article:
   * [Sharing documents with your newsroom](#sharing-documents-with-your-newsroom)
       - [Changing a document's access level](#to-change-the-access-level-of-your-documents)
@@ -49,7 +48,7 @@ When you upload a document, you can decide whether or not you're ready to make i
 ## Adding collaborators to a project
 **Adding a collaborator to a project gives them the ability to view and edit all of the documents in that project and all the public notes on those documents.** Your private notes will still be private. Once you add a collaborator to a project, the project will appear in their account sidebar for easy access.
 
-#### To to add a collaborator to a project:
+#### To add a collaborator to a project:
 
 1. **Hover** over a project.
 2. Select the **pencil icon** beside the project name.
@@ -58,5 +57,5 @@ When you upload a document, you can decide whether or not you're ready to make i
 4. Input the email address of the person you're adding as a collaborator. Click **"Add"**.
 5. The project will appear in the **account sidebar** of your collaborator; they may access it from there.
 
-<b>NOTE:</b> Collaborators must have a DocumentCloud account. If you try and add someone as a collaborator with an email address that is not associated with an already-existing DocumentCloud account, you will receive an error.
+<p class="note"><b>NOTE:</b> Collaborators must have a DocumentCloud account. If you try and add someone as a collaborator with an email address that is not associated with an already-existing DocumentCloud account, you will receive an error.</p>
 

@@ -5,8 +5,6 @@ title: Troubleshooting
 
 # Troubleshooting Failed Uploads
 
-***
-
 #### In this article:
 * [Optimizing PDFs](#optimizing-pdfs)
 * [Troubleshooting noise in documents](#noise-in-documents)

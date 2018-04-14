@@ -5,8 +5,6 @@ title: Publishing and Embedding
 
 # Publishing and Embedding
 
-***
-
 #### In this article:
 
 * [Making Documents Public](#making-documents-public)
@@ -51,7 +49,7 @@ Before you publish a document, page, note or document set, you'll want to make s
 4. Select the date you'd like the document to be made public in the dialog box and click **"Save"**. 
 5. Your document will now automatically have its display setting changed to "public" at that date and time.
 
-<b>NOTE:</b> DocumentCloud syncs to the local time on your computer. For example, if your computer is set in Eastern Standard Time, whatever publication date and time you select will also by default be in Eastern Standard Time.
+<p class="note"><b>NOTE:</b> DocumentCloud syncs to the local time on your computer. For example, if your computer is set in Eastern Standard Time, whatever publication date and time you select will also by default be in Eastern Standard Time.</p>
 
 ## Linking to a Document, Page, or Note
 
@@ -126,77 +124,85 @@ To access embed options, select the document you want to embed and click on **"P
 
 ![Embedding preparation 1](./images/publishing_embedding/publishing_embedding3.gif)
 
-### Embed Full Document Viewer
-#### 1) Select "Embed Document Viewer" from the "Publish" dropdown
-
+## Embed Full Document Viewer
+1. Select "Embed Document Viewer" from the "Publish" dropdown
 ![Embedding full document viewer 1](./images/publishing_embedding/embeddocviewer.png)
 
-#### 2) Review Document
-![Embedding full document viewer 2](./images/publishing_embedding/publishing_embedding5.gif)
 
-* First, you may provide the link to the article referencing the document to enable a **"Related Article"** link within the document viewer. (This guides readers who stumble across the document from a web search to the article's original context, a.k.a your published piece.)
+2. Review Document
 
-* You will be alerted if your document needs to be made public.
+    ![Embedding full document viewer 2](./images/publishing_embedding/publishing_embedding5.gif)
 
-#### 3) Configure the Document Viewer
+    First, you may provide the link to the article referencing the document to enable a **"Related Article"** link within the document viewer. (This guides readers who stumble across the document from a web search to the article's original context, a.k.a your published piece.) You will be alerted if your document needs to be made public.
+
+
+3. Configure the Document Viewer
 ![Embedding full document viewer 3](./images/publishing_embedding/publishing_embedding4.gif)
 
-You can control all of the below settings to customize the particular display of your document viewer embed:
-* The size of the document viewer (full page layout, fixed size box)
-* Which page the document opens to by default
-* Show/hide the sidebar
-* Show/hide the text tab
-* Whether or not to link to the original PDF (allowing your readers to download the document)
+    You can control all of the below settings to customize the particular display of your document viewer embed:    
+    • The size of the document viewer (full page layout, fixed size box)    
+    • Which page the document opens to by default   
+    • Show/hide the sidebar     
+    • Show/hide the text tab    
+    • Whether or not to link to the original PDF (allowing your readers to download the document)
 
-#### 4) Copy and Paste the Embed Code
+4. Copy and Paste the Embed Code
 ![Embedding full document viewer 4](./images/publishing_embedding/publishing_embedding7.gif)
 
-* DocumentCloud will generate two pieces of code: an **HTML embed code**, and a **Wordpress shortcode**. 
-* Simply **copy and paste** the HTML code to a page on your site. If you have the [DocumentCloud Wordpress plugin](https://wordpress.org/plugins/documentcloud) installed, paste it into the body of your article.
+    • DocumentCloud will generate two pieces of code: an **HTML embed code**, and a **Wordpress shortcode**.    
+    • Simply **copy and paste** the HTML code to a page on your site. If you have the [DocumentCloud Wordpress plugin](https://wordpress.org/plugins/documentcloud) installed, paste it into the body of your article.
 
 
-### Embed a Single Page from a Document
-#### 1) Select "Embed a Page" from the "Publish" dropdown
+## Embed a Single Page from a Document
+1. Select "Embed a Page" from the "Publish" dropdown
 
-![Embedding single page 1](./images/publishing_embedding/embedpage.png)
+    ![Embedding single page 1](./images/publishing_embedding/embedpage.png)
 
-#### 2) Select a Page to Embed
-![Embedding single page 2](./images/publishing_embedding/publishing_embedding8.gif)
-#### 3) Copy and Paste the Embed Code
-![Embedding single page 3](./images/publishing_embedding/publishing_embedding7.gif)
+2. Select a Page to Embed
 
-* DocumentCloud will generate two pieces of code: an **HTML embed code**, and a **Wordpress shortcode**. 
-* Simply **copy and paste** the HTML code to a page on your site. If you have the [DocumentCloud Wordpress plugin](https://wordpress.org/plugins/documentcloud) installed, paste it into the body of your article.
+    ![Embedding single page 2](./images/publishing_embedding/publishing_embedding8.gif)
+3. Copy and Paste the Embed Code
+
+    ![Embedding single page 3](./images/publishing_embedding/publishing_embedding7.gif)
+
+    • DocumentCloud will generate two pieces of code: an **HTML embed code**, and a **Wordpress shortcode**.    
+    • Simply **copy and paste** the HTML code to a page on your site. If you have the [DocumentCloud Wordpress plugin](https://wordpress.org/plugins/documentcloud) installed, paste it into the body of your article.
 
 
-### Embed a Note from a Document
-#### 1) Select "Embed a Note" from the "Publish" dropdown
-![Embedding notes 1](./images/publishing_embedding/embednote.png)
-#### 2) Select a Note to Embed
-![Embedding notes 2](./images/publishing_embedding/publishing_embedding9.gif)
-#### 3) Copy and Paste the Embed Code
-![Embedding notes 3](./images/publishing_embedding/publishing_embedding7.gif)
+## Embed a Note from a Document
+1. Select "Embed a Note" from the "Publish" dropdown
 
-* DocumentCloud will generate two pieces of code: an **HTML embed code**, and a **Wordpress shortcode**. 
-* Simply **copy and paste** the HTML code to a page on your site. If you have the [DocumentCloud Wordpress plugin](https://wordpress.org/plugins/documentcloud) installed, paste it into the body of your article.
+    ![Embedding notes 1](./images/publishing_embedding/embednote.png)
+2. Select a Note to Embed
 
-### Embed a List of Documents
-#### 1) Select "Embed Document List" from the "Publish" dropdown
-![Embedding lists 1](./images/publishing_embedding/embeddoclist.png)
-#### 2) Configure the Embedded Documents
-![Embedding lists 2](./images/publishing_embedding/publishing_embedding10.gif)
+    ![Embedding notes 2](./images/publishing_embedding/publishing_embedding9.gif)
+3. Copy and Paste the Embed Code
 
-You can control all of the below to customize how your document list embed appears:
-* The title of your document list
-* The order your documents appear in
-* How many documents thumbnails are shown per page
-* Enable/disable the search bar
+    ![Embedding notes 3](./images/publishing_embedding/publishing_embedding7.gif)
 
-#### 3) Copy and Paste the Embed Code
-![Embedding lists 3](./images/publishing_embedding/publishing_embedding7.gif)
+    • DocumentCloud will generate two pieces of code: an **HTML embed code**, and a **Wordpress shortcode**.     
+    • Simply **copy and paste** the HTML code to a page on your site. If you have the [DocumentCloud Wordpress plugin](https://wordpress.org/plugins/documentcloud) installed, paste it into the body of your article.
 
-* DocumentCloud will generate two pieces of code: an **HTML embed code**, and a **Wordpress shortcode**. 
-* Simply **copy and paste** the HTML code to a page on your site. If you have the [DocumentCloud Wordpress plugin](https://wordpress.org/plugins/documentcloud) installed, paste it into the body of your article.
+## Embed a List of Documents
+1. Select "Embed Document List" from the "Publish" dropdown
+
+    ![Embedding lists 1](./images/publishing_embedding/embeddoclist.png)
+2. Configure the Embedded Documents
+
+    ![Embedding lists 2](./images/publishing_embedding/publishing_embedding10.gif)
+
+    You can control all of the below to customize how your document list embed appears: 
+    • The title of your document list   
+    • The order your documents appear in    
+    • How many documents thumbnails are shown per page  
+    • Enable/disable the search bar
+
+3. Copy and Paste the Embed Code
+
+    ![Embedding lists 3](./images/publishing_embedding/publishing_embedding7.gif)
+
+    • DocumentCloud will generate two pieces of code: an **HTML embed code**, and a **Wordpress shortcode**.    
+    • Simply **copy and paste** the HTML code to a page on your site. If you have the [DocumentCloud Wordpress plugin](https://wordpress.org/plugins/documentcloud) installed, paste it into the body of your article.
 
 
 ## Wordpress Shortcodes

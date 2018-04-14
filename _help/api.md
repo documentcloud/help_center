@@ -7,7 +7,7 @@ title: The DocumentCloud API
 
 DocumentCloud's API provides resources to search, upload, edit, and organize documents as well as to work with projects. In addition, an oEmbed service provides easy integration of embedding documents, pages and notes.
 
-Use of the DocumentCloud API indicates you have read and agree to our [API Guidelines and Terms of Service](/terms/api).
+Use of the DocumentCloud API indicates you have read and agree to our [API Guidelines and Terms of Service](https://www.documentcloud.org/terms).
 
 ## Contents
 
@@ -47,7 +47,7 @@ data          | include key/value data in the results | true (not present by def
 mentions      | include highlighted mentions of the search phrase | 3 (not present by default, max is 10)
 order         | the order by which documents are listed | title (default is "created\_at", other choices are: "score", "created\_at", "title", "page_count", "source")
 
-### Example
+#### Example
 
     /api/search.json?q=obama&page=2
 
@@ -75,7 +75,7 @@ order         | the order by which documents are listed | title (default is "cre
   <pre id="search_results" style="display: none;"></pre>
 </div>
 
-### Tips
+#### Tips
 
  * If you'd like to get back search results with more than 10 documents on a page, pass the `per_page` parameter. A maximum of 1,000 documents will be returned at a time.
 
@@ -101,12 +101,12 @@ data            | (optional) a hash of arbitrary key/value data pairs | {"data":
 secure          | (optional) If you're dealing with a truly sensitive document, pass the "secure" parameter in order to prevent the document from being sent to OpenCalais for entity extraction. | true
 force_ocr | (optional) specify that a document should be OCR'd even if it has text in it (default is "false") | true
 
-### Tips
+#### Tips
 
  * Please ensure that you send the request properly encoded as "multipart/form-data"
  * Review your uploaded files and add a source and description if you didn't.
 
-### Example
+#### Example
 
 Using Ruby's RestClient library you could do:
 
@@ -123,7 +123,7 @@ Using Ruby's RestClient library you could do:
 
 Retrieve the canonical JSON representation of a particular document, as specified by the document id (usually something like: **1659580-economic-analysis-of-the-south-pole-traverse**).
 
-### Example Response
+#### Example Response
 
     {"document":{
       "id":"1659580-economic-analysis-of-the-south-pole-traverse",
@@ -158,7 +158,7 @@ Retrieve the canonical JSON representation of a particular document, as specifie
       "annotations":[]
     }}
 
-### Tips
+#### Tips
 
  * **Security note:** For fidelity with the source document, the extracted text (available via the URLs provided in `document.resources.text` and the `document.resources.page.text` page iteration pattern) is not sanitized. **You should always escape document and page text before insertion into the DOM.**
 
@@ -179,7 +179,7 @@ data | (optional) a hash of arbitrary key/value data pairs | {"data": {"status":
 
 The response value of this method will be the JSON representation of your document (as seen in the GET method above), with all updates applied.
 
-### Tips
+#### Tips
 
  * If your HTTP client is unable to create a PUT request, you can send it as a POST and add an extra parameter: `_method=put`
 
@@ -188,7 +188,7 @@ The response value of this method will be the JSON representation of your docume
 
 Delete a document from DocumentCloud. You must be authenticated as the owner of the document for this method to work.
 
-### Tips
+#### Tips
 
  * If your HTTP client is unable to create a DELETE request, you can send it as a POST, and add an extra parameter: `_method=delete`
 
@@ -197,7 +197,7 @@ Delete a document from DocumentCloud. You must be authenticated as the owner of 
 
 Retrieve the JSON for all of the entities that a particular document contains, specified by the document id (usually something like: **1659580-economic-analysis-of-the-south-pole-traverse**). Entities are ordered by their relevance to the document as determined by OpenCalais.
 
-### Example Response
+#### Example Response
 
     {
       "entities":{
@@ -228,7 +228,7 @@ title | (required) the projects's title | Drywall Complaints
 description | (optional) a paragraph of detailed description | A collection of documents from 2007-2009 relating to reports of tainted drywall in Florida.
 document_ids | (optional) a list of documents that the project contains, by id | 28-rammussen, 207-petersen
 
-### Tips
+#### Tips
 
  * Note that you have to use the convention for passing an array of strings: `?document_ids[]=28-boumediene&document_ids[]=207-academy&document_ids[]=30-insider-trading`
 
@@ -237,7 +237,7 @@ document_ids | (optional) a list of documents that the project contains, by id |
 
 Retrieve a list of project names and document ids. You must use basic authentication over HTTPS in order to make this request. The projects listed belong to the authenticated account.
 
-### Example Response
+#### Example Response
 
     {"projects": [
       {
@@ -268,7 +268,7 @@ Delete a project that belongs to the current authenticated account.
 
 Generate an embed code for a resource (a document or a note) using our [oEmbed](http://oembed.com/) service. Returns a rich JSON response.
 
-### Response format
+#### Response format
 
     {
       "type": "rich",
@@ -282,11 +282,11 @@ Generate an embed code for a resource (a document or a note) using our [oEmbed](
     }
 
 <a name="oembed-documents"></a>
-### Example document request
+#### Example document request
 
     /api/oembed.json?url=https%3A%2F%2Fwww.documentcloud.org%2Fdocuments%2Fdoc-name.html
 
-### Parameters for documents
+#### Parameters for documents
 
 Parameter        | Description           |  Example
 -----------------|-----------------------|--------------
@@ -306,22 +306,22 @@ note             | (optional) Open the document to a specific note. An integer r
 page             | (optional) Open the document to a specific page   | 3
 
 <a name="oembed-pages"></a>
-### Example pages request
+#### Example pages request
 
     /api/oembed.json?url=https%3A%2F%2Fwww.documentcloud.org%2Fdocuments%2Fdoc-name%2Fpages%2F5.html
 
-### Parameters for pages
+#### Parameters for pages
 
 Parameter        | Description           |  Example
 -----------------|-----------------------|--------------
 url              | **(required)** URL-escaped document page to embed     | https%3A%2F%2Fwww.documentcloud.org%2F documents%2Fdoc-name%2Fpages%2F5.html
 
 <a name="oembed-notes"></a>
-### Example note request
+#### Example note request
 
     /api/oembed.json?url=https%3A%2F%2Fwww.documentcloud.org%2Fdocuments%2Fdoc-name%2Fannotations%2F220666.html
 
-### Parameters for notes
+#### Parameters for notes
 
 Parameter        | Description           |  Example
 -----------------|-----------------------|--------------

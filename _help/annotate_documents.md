@@ -3,9 +3,7 @@ layout: default
 title: Annotate Documents
 ---
 
-# Annotate Documents: Public, Private, and Draft Notes 
-
-***
+# Annotating Documents (Public, Private, and Draft Notes) 
 
 #### In this article:
   * [How to annotate documents](#how-to-annotate-documents)
@@ -43,8 +41,8 @@ Public notes may also be saved as **drafts**. Draft notes are visible to anyone 
 
     ![Full-page annotations](./images/annotate_documents/annotate_documents2.gif)
     
-Once you add notes to your document, **all notes and their titles will appear in the workspace sidebar** as below. **Click** the title of a note anywhere in your document to open it.
-    
+3. Once you add notes to your document, **all notes and their titles will appear in the workspace sidebar** as below. **Click** the title of a note anywhere in your document to open it.
+
 ![Clicking through notes](./images/annotate_documents/notesidebar.png)
 
 ## Linking to Notes
@@ -56,11 +54,10 @@ When sharing a document with others, you can **link directly to specific notes y
 2. Click the **link icon** located beside the note title. 
 
     ![Note permalinks](./images/annotate_documents/annotate_documents3.png)
-3. **Your browser's address bar will be updated to display the full URL of the annotation.**
- * The good stuff comes after the # symbol — in our example the URL of the embedded document ends with #document/p173/a8646, so we know that the annotation is on page 173.
+3. **Your browser's address bar will be updated to display the full URL of the annotation.** The good stuff comes after the # symbol — in our example the URL of the embedded document ends with **#document/p173/a8646**, so we know that the annotation is on page 173.
 4. **Copy the url** and share. 
 
-<b>NOTE:</b> You also can embed a note directly. See our <a href="https://documentcloud.github.io/help_center/help/publishing_embedding.html">publishing and embedding documentation</a> for details.
+<p class="note"><b>NOTE:</b> You also can embed a note directly. See our <a href="publishing_embedding.html">publishing and embedding documentation</a> for details.</p>
 
 ## Printing Notes
 It's easy to print out all of the notes you've created on a particular document or set of documents. 
@@ -84,7 +81,7 @@ It's easy to print out all of the notes you've created on a particular document 
 
     ![Deleting notes](./images/annotate_documents/annotate_documents5.gif)
 
-<b>NOTE:</b> Deleting a note <b>cannot be undone</b>, so proceed with caution.
+<p class="note"><b>NOTE:</b> Deleting a note <b>cannot be undone</b>, so proceed with caution.</p>
 
 ## Advanced
 
@@ -92,9 +89,8 @@ It's easy to print out all of the notes you've created on a particular document 
 
 Note bodies can contain a limited subset of HTML and attributes. **The table below lists some commonly used elements and attributes.** You can find a full list beneath the table.
 
-|                 |                                                                                      |                                            | 
-|-----------------|--------------------------------------------------------------------------------------|--------------------------------------------| 
-| ELEMENT         | DESCRIPTION                                                                          | ATTRIBUTES                                 | 
+
+| **Element**         | **Description**                                                                          | **Attributes**                                 | 
 | `<a>`           | creates a hyperlink                                                                  | href                                       | 
 | `<img>`         | displays an image                                                                    | src, width, height, alt, align             | 
 | `<br/>`         | inserts a line break                                                                 | –                                          | 
