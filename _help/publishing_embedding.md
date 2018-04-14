@@ -233,7 +233,7 @@ You also can pass additional parameters to control the size and attributes of th
 * **For a note, use any note-specific URL:**
     * `~/documents/282753-lefler-thesis.html#document/p1/a53674"]`
 
-<b>NOTE:</b> If you don't indicate a width (or manually disable responsive widths with `responsive="false"`), then the document will automatically narrow and widen to fill available width.
+<p class="note"><b>NOTE:</b> If you don't indicate a width (or manually disable responsive widths with `responsive="false"`), then the document will automatically narrow and widen to fill available width.</p>
 
 ## oEmbed Service
 
@@ -249,5 +249,5 @@ You also can pass additional parameters to control the size and attributes of th
     * `https://www.documentcloud.org/documents/1234-document-name/annotations/220666.html`
 
 
-<b>NOTE:</b> Check with your organization's systems administrator about whether your CMS supports oEmbed.
+<p class="note"><b>NOTE:</b> Check with your organization's systems administrator about whether your CMS supports oEmbed.</p>
 

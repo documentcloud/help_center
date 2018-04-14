@@ -69,7 +69,7 @@ DocumentCloud accounts cannot be deleted, but they can be disabled. Administrato
 
 Should the need arise, an account can be re-enabled later on. Simply go through the same process as outlined above and select **"Re-Enable"**.
 
-NOTE: When an account is disabled, all the documents that person uploaded to DocumentCloud remain hosted on the organization's account. Their annotations will remain as well. If you want to permenantly purge the contents of user's account, please contact DocumentCloud support at **support@documentcloud.org**.
+<p class="note">NOTE: When an account is disabled, all the documents that person uploaded to DocumentCloud remain hosted on the organization's account. Their annotations will remain as well. If you want to permenantly purge the contents of user's account, please contact DocumentCloud support at **support@documentcloud.org**.</p>
 
 ## Switching organizations
 

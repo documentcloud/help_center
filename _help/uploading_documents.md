@@ -27,7 +27,7 @@ There are two ways to upload in the workspace:
 
 To select more than one document, hold down the ctrl key in Windows or the command key in OSX.
 
-<div class="note"><b>NOTE:</b> Multiple document upload is not supported in older versions of Internet Explorer.</div>
+<p class="note"><b>NOTE:</b> Multiple document upload is not supported in older versions of Internet Explorer.</p>
 
 
 1. **The uploader will suggest a title for your document based on its file name.** You can edit the title before you continue, or you can edit the title plus other metadata after the document is uploaded. 
