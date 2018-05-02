@@ -11,16 +11,22 @@ title: Searching Documents
   - [Grouping searches (search for two keywords at once)](#to-group-searches-search-for-two-keywords-at-once)
   - [Excluding a keyword from a search](#to-exclude-a-keyword-from-a-search)
   - [“Wildcard” searches](#wildcard-searches)
-* [Searching by built-in metadata field](#searching-by-built-in-metadata-field)
-  - [Metadata filters](#metadata-filters)
+* [Metadata fields](#metadata-fields)
+  - [Default DocumentCloud metadata fields](#default-documentcloud-metadata-fields)
+* [Custom metadata fields](#custom-metadata-fields)
+  - [Adding custom metadata to individual documents](#to-add-custom-metadata-to-individual-documents)
+  - [Searching and filtering using custom metadata](#to-search-and-filter-using-custom-metadata)
 * [Viewing entities](#viewing-entities)
   - [What are entities?](#what-are-entities)
   - [Viewing all entities in a document](#to-view-all-the-entities-in-a-document)
-* [Editing and searching your own custom data](#editing-and-searching-your-own-custom-data)
-  - [Editing data for individual documents](#to-edit-data-for-individual-documents)
-  - [Searching and filtering using custom data](#to-search-filter-using-custom-data)
       
 ***
+
+DocmentCloud provides a number of searchable fields by default, all of which are listed below. Every document in DocumentCloud has these fields, although not all are populated automatically. Users have the option to add **custom metadata fields** as well. These fields will be searchable in exactly the same way as the default fields, and are also accessible via our API. (More on that below.)
+
+
+<!--The **“source”** field, which you may use to categorize your documents by their sources, may be [filled out when uploading a document](uploading_documents.html#upload-via-the-workspace) (see step #2).-->
+
 
 By default, a search looks for **all of the words you enter within the title and full text of the document itself**. For example: `John Yoo detainee`. You can, however, ask DocumentCloud to search the contents of specific fields.
 ## Advanced Queries
@@ -44,15 +50,16 @@ Use an exclamation point.
 Wildcard searches enable you to query for incomplete keywords. For example, a search of `"J* Brown"` will match both `"Jerry Brown"` and `"John Brown"`.
 
 ![search wildcard](./images/search_documents/wildcard.png)
-## Searching by Built-in Metadata Field
+## Metadata Fields
 
-**In addition to the above, you can use a whole host of filters to further refine your document searches.** You can filter documents by title, source, access, description, and more. 
+**In addition to the special queries detailed above, you can use a host of metadata filters to further refine your document searches.** You can filter documents by title, source, access, description, and more. 
 
-You may also use **multiple filters** at once, as seen below:
+You may use **multiple filters** at once, as seen below:
 ![search filters](./images/search_documents/search_documents1.png)
 
-#### Metadata Filters
-Below is a list of all the filters you may use and what they mean.
+#### Default DocumentCloud Metadata Fields
+
+Below is a list of all the default DocumentCloud metadata filters you may use and what they mean.
 
 **TERM**|**DESCRIPTION**
 :-----:|:-----:
@@ -65,6 +72,43 @@ project|Restrict your search to just the documents in one of your projects by en
 projectid|Restrict your search to a particular project by a project's canonical identifier. Useful for filtering public API calls. You can view this ID by opening the project's edit dialog. For example: projectid: 6-the-financial-crisis
 access|Search for only documents that have a particular access level (one of "public," "private," or "organization"). For example, to view all of your private documents: access: private
 filter|Filter documents by interesting criteria (one of "published," "unpublished," "annotated," or "popular"). For example, to view all published documents: filter: published
+
+## Custom Metadata Fields
+
+If the default metadata fields aren't sufficient for you organizational needs, **you can create your own metadata fields** in the form of key/value pairs.
+
+#### To add custom metadata to individual documents:
+
+To add metadata to individual documents in the workspace, select the documents you wish to update, and choose **Edit Document Data** from the **Edit** menu. You may also right-click on a document and choose Edit Document Data from the context menu.
+
+1. **Right-click** on the documents to which you want to add custom metadata.
+2. Select **"Edit Document Data"**.         
+    ![document data 1](./images/search_documents/search_documents4.gif)
+3. Input **key/value pairs** to describe your document. You can add or delete fields by clicking the plus and minus buttons to the right of the input fields.           
+    ![document data 2](./images/search_documents/search_documents5.gif)
+4. Select **"Save"**.
+5. Your custom key/value pair will now show up boxed underneath the document title, as shown below:         
+![document data 3](./images/search_documents/search_documents2.png)
+
+#### To search and filter using custom metadata:
+
+After you add custom metadata fields to your documents, you will be able to search and filter your documents according to the custom key/value pairs you just created.
+
+* **To filter all your documents by a key/value pair**, you can **select** the boxed key/value pair under any document. 
+
+![custom data 1](./images/search_documents/search_documents3.png)
+* You can also input the key/value pair in the regular search bar along with any other search terms, custom or not.
+![custom data 2](./images/search_documents/search_documents4.png)
+
+
+* You can enter the same key multiple times with different values for an `"or"` search. 
+![custom data 3](./images/search_documents/customboth.png)
+
+* If you'd like to filter all documents with a `citizen` key, but you don't care about the value, you can use: `citizen: *`
+![custom data 4](./images/search_documents/customall.png)
+
+* To find all the documents that don't have a `citizen` key yet, use: `citizen: !`
+![custom data 5](./images/search_documents/customnone.png)
 
 ## Viewing Entities
 
@@ -82,41 +126,3 @@ OpenCalais can tell us that "Barack Obama" is the same person as "President Obam
     ![viewing entities 2](./images/search_documents/search_documents3.gif)
 
 
-
-## Editing and Searching your own Custom Data
-
-**DocumentCloud allows you to define and search your own set of custom data (key/value pairs) associated with specific documents.**
-
-To get started with document data, you can use the [API](api.html) to add data to your documents in bulk — useful if you already have an existing database of information about your documents.
-
-#### To edit data for individual documents:
-
-To edit data for individual documents in the workspace, select the documents you wish to update, and choose Edit Document Data from the Edit menu ... or right-click on a document, and choose Edit Document Data from the context menu.
-
-1. **Right-click** on the documents to which you want to add custom data.
-2. Select **"Edit Document Data"**.         
-    ![document data 1](./images/search_documents/search_documents4.gif)
-3. Input **key/value pairs** to describe your document. You can add or delete fields by clicking the plus and minus buttons to the right of the input fields.           
-    ![document data 2](./images/search_documents/search_documents5.gif)
-4. Select **"Save"**.
-5. Your custom key/value pair will now show up boxed underneath the document title, as shown below:         
-![document data 3](./images/search_documents/search_documents2.png)
-
-#### To search/filter using custom data:
-
-After you add custom data fields to your documents, you will be able to search and filter your documents according to the custom key/value pairs you just created.
-
-* **To filter all your documents by a key/value pair**, you can **select** the boxed key/value pair under any document. 
-![custom data 1](./images/search_documents/search_documents3.png)
-* You can also input the key/value pair in the regular search bar along with any other search terms, custom or not.
-![custom data 2](./images/search_documents/search_documents4.png)
-
-
-* You can enter the same key multiple times with different values for an `"or"` search. 
-![custom data 3](./images/search_documents/customboth.png)
-
-* If you'd like to filter all documents with a `citizen` key, but you don't care about the value, you can use: `citizen: *`
-![custom data 4](./images/search_documents/customall.png)
-
-* To find all the documents that don't have a `citizen` key yet, use: `citizen: !`
-![custom data 5](./images/search_documents/customnone.png)

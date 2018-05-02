@@ -49,7 +49,8 @@ Before you publish a document, page, note or document set, you'll want to make s
 4. Select the date you'd like the document to be made public in the dialog box and click **"Save"**. 
 5. Your document will now automatically have its display setting changed to "public" at that date and time.
 
-<p class="note"><b>NOTE:</b> DocumentCloud syncs to the local time on your computer. For example, if your computer is set in Eastern Standard Time, whatever publication date and time you select will also by default be in Eastern Standard Time.</p>
+<p class="note"><b>NOTE:</b> DocumentCloud syncs to the time zone of whatever computer you are accessing it from.  For example, if your computer is set in Eastern Standard Time, whatever publication date and time you select will also by default be in Eastern Standard Time. You cannot manually configure your time zone.
+</p>
 
 ## Linking to a Document, Page, or Note
 

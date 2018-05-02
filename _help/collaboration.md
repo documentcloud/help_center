@@ -13,21 +13,30 @@ title: Collaboration and Sharing
   
 ***
 
-In DocumentCloud, you can **share your documents with your newsroom**. You also can **share entire projects with other users**, whether or not they're in your newsroom, and **share specific documents with reviewers**, whether or not they have a DocumentCloud account.
-
 ## Sharing Documents with Your Newsroom
 When you upload a document, you can decide whether or not you're ready to make it public. By default, no one but you will be able to see documents you've uploaded to DocumentCloud. 
+
+**DocumentCloud features three ways to share and collaborate on documents.**
+
+* You can share a documents with **all the DocumentCloud users in your newsroom** by changing its access level. 
+* You can share one or more documents with **specific collaborators who have existing DocumentCloud accounts** (whether or not they are in your newsroom) by creating a project and adding those users to that project.
+* You can share documents with an **outside reviewer**, whether or not they have a DocumentCloud account. 
+
+
+## DocumentCloud Access Levels
+<p class="green">Public Access</p>
+The document is published. Anyone, even those without DocumentCloud accounts, may access the document. Even if you don’t embed it, it will be indexed by search engines and findable through our API/public search.
+<p class="blue">Private Access</p>
+The default document access setting. Only the user who originally uploaded the document has access to it. It is not available through our public API or search.
+<p class="red">Private to DocumentCloud</p>
+All DocumentCloud users in your organization may see the document. Additionally, everyone in your organization will have full privileges on the document. They may add or delete annotations, redact portions of it, move pages, etc. If you want to share your document with a limited number of users, it is better to create a project and [add collaborators individually](#adding-collaborators-to-a-project).
 
 #### To change the access level of your documents:
 
 1. Right-click the document icon.
-2. Select **“Set Access Level”**.
+2. Select **“Set Access Level”**. 
 
 ![Set access level](./images/collaboration/collaboration1.gif)
-
-* **Public Access** - Anyone, even those without DocumentCloud accounts, may access the document.
-* **Private Access** - The default document access setting. Only you may access the document.
-* **Private to DocumentCloud** - Only people in your organization may access the document. 
 
  
 ## Sharing Documents with Reviewers

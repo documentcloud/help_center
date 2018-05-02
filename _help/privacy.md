@@ -1,29 +1,33 @@
 ---
 layout: default
-title: Privacy
+title: Privacy and Security
 ---
 
-# Privacy
+# Privacy and Security
 
 #### In this article:
+* [Understanding security](#understanding-security)
 * [Understanding privacy](#understanding-privacy)
 * [DocumentCloud’s privacy settings](#documentclouds-privacy-settings)
-* [Who Can Read Notes?](#who-can-read-notes)
+* [Who can read notes?](#who-can-read-notes)
 
 ***
+## Understanding Security
+**We at DocumentCloud are doing our very best to ensure that any sensitive material you upload remains secure.** Some of the most sensitive documents published by newsrooms have been published through DocumentCloud.
+
+**You should be aware, however, that there are no guarantees.** If you have particularly sensitive documents and, therefore, concerns about security, DocumentCloud might not be the right tool for the job. Get in touch with us and we can suggest some ways to handle your specific situation.
+
+Note:
+* All documents uploaded to DocumentCloud are passed through OpenCalais via its API during processing. This is done as securely as possible, but you may also want to look at OpenCalais’s terms of service if you haven’t already.
+* This is the internet. Your documents are only ever as private as your password, and documents shared internally are only as private as the least responsible user in your newsroom. There are countless ways to compromise your account, such as logging in from a publicly accessible workstation and failing to log out or accessing DocumentCloud over a public wireless connection. 
+
 
 ## Understanding Privacy
-Documents you upload aren't public until you publish them.
-
-If you are concerned about the secrecy of documents you have uploaded to DocumentCloud and annotations you have made to them, you should keep a couple of things in mind:
+By default, documents uploaded to DocumentCloud are private. You and you alone will be able to see them. This ensures that you will be able to work with the documents while you are reporting your story without fear that they will be viewable by the general public.
 
 * **DocumentCloud does have a [privacy policy](https://www.documentcloud.org/privacy).**
 
-* All documents uploaded to DocumentCloud are passed through OpenCalais via its [API](api.html). Take a look at its terms of service if you haven't already.
 
-* This is the internet. **Your documents are only ever as private as your password, and documents shared internally are only as private as the least responsible user in your newsroom.** There are countless ways to compromise your account, such as logging in from a publicly accessible workstation and failing to log out or accessing DocumentCloud over a public wireless connection.
-
-All of that said, we're doing our best to ensure that private material is and remains private.
 ## DocumentCloud’s Privacy Settings
 When you upload a document, you can decide whether or not you're ready to make it public. **By default, no one but you will be able to see documents you've uploaded to DocumentCloud.** When you're ready to share your documents, you can make them public—[here's how](publishing_embedding.html#to-change-a-documents-access-level).
 

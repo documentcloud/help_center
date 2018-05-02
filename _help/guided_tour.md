@@ -32,7 +32,7 @@ All document and page editing tools, as well as all sorting and annotation tools
 <p class="red">Document Body</p>
 
 
-Exactly what it says on the tin. Scroll through your document in any and all views, read, annotate, redact, e.t.c.
+Exactly what it says on the tin. Scroll through your document in any and all views, read, annotate, redact, etc.
 
 
 ## DocumentCloud Walkthrough
@@ -124,7 +124,7 @@ Select one of the documents you've just uploaded. Then, select **"Publish"** fro
 
 ![Generating Embeds](./images/guide/guide7.gif)
 
-Click through the dialogue. You'll be given a bunch of **different options to customize your document viewer**, including the height you'd like to set it to and whether or not you want the sidebar to show up. You can **preview the document viewer** as well to see how it will look when published.
+Click through the dialog. You'll be given a bunch of **different options to customize your document viewer**, including the height you'd like to set it to and whether or not you want the sidebar to show up. You can **preview the document viewer** as well to see how it will look when published.
 
 ![Embed Code](./images/publishing_embedding/publishing_embedding7.gif)
 

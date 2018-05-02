@@ -17,14 +17,18 @@ title: Document Modification
       
 ***
 
-**We don't tend to think of modifying source documents as something a responsible journalist would do, but there are times when it is absolutely necessary.**
+**At times, it is necessary to modify a document before publication, and DocumentCloud provides a number of tools to help with that.**
 
-Whether you're trying to protect the privacy of a minor by redacting personally identifying information from a foster care incident report, reorganizing a collection of letters, or inserting a page that wasn't properly scanned, journalists sometimes need to rework source documents to ready them for publication. 
+Perhaps the document was provided to you out of order, or with a page missing. Perhaps the document includes personal information, like telephone or SSNs,  that must be redacted. DocumentCloud provides some simple tools to help.
+
 
 ## Redacting Documents
-Not everything is appropriate for publication. [Reports from a state foster care agency](http://media.apps.chicagotribune.com/docs/ct-met-dcfs-letters.html) might illustrate a story well, but such documents are also usually full of sensitive information like the full names of minors or other personally identifying information. **We expect newsrooms to use their own policies and judgement in determining what is and is not suitable for publication.**
+Not everything is appropriate for publication. [Reports from a state foster care agency](http://media.apps.chicagotribune.com/docs/ct-met-dcfs-letters.html) might illustrate a story well, but such documents are also usually full of sensitive information like the full names of minors or other personally identifying information. 
+
+**If you believe there is questionable material in a document, you should consult an editor and/or your own legal team before publishing. Also, it is your responsibility to ensure that any documents published conform to DocumentCloud’s terms of service.**
 
 #### To Redact a Portion of a Document:
+<p class="note"><b>NOTE: Redactions are permanent, and cannot be undone.</b> When you redact a portion of a document, all of the text touching the black box will additionally be removed from the OCR text in the <b>"text"</b> tab. No trace of it will be left in the document file.</p>
 
 1. Select **“Redact Document”** from the workspace sidebar under **“Document Tools”**.    
     ![Redact 1](./images/document_modification/redact.png)
@@ -33,13 +37,13 @@ Not everything is appropriate for publication. [Reports from a state foster care
 3. Select **“Save Redactions”** and then **“Okay”**. 
 4. You will be forwarded back to the **“Your Documents”** page. Once your document is finished processing, the text you selected has been blacked out.
 
-<p class="note"><b>NOTE: Redactions are permanent, and cannot be undone.</b> When you redact a portion of a document, all of the text touching the black box will additionally be removed from the OCR text in the <b>"text"</b> tab. No trace of it will be left in the document file.</p>
 
 ## Page Tools
 
-Within the pages tab of any document that you have permission to edit, you'll find page manipulation tools in the sidebar on the right. As you save changes, the document window will close so DocumentCloud can rebuild your document.
+DocumentCloud offers some simple tools to insert, remove, and reorder pages within a document. These tools can be found in the sidebar on the right for any document you have permission to edit.
 
-Depending on the size of the document and the number of other jobs DocumentCloud is handling, this can take a while. Any changes to a document will also be applied to the original PDF file.
+**Making changes like these to a document will require the whole document to be reprocessed**, which can take a while (the document window will close so DocumentCloud can rebuild your document). 
+
 
 #### To Insert or Replace a Page:
 
